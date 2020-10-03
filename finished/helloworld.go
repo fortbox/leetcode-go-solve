@@ -1,4 +1,4 @@
-package awesomeProject
+package finished
 
 import "fmt"
 
