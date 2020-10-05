@@ -21,16 +21,17 @@ func subarraySum(nums []int, k int) int {
 	ma[0] = 1
 	for _, num := range nums {
 		sum += num
+		value, ok := ma[sum-k]
+		if ok {
+			res += value
+		}
 		v, okk := ma[sum]
 		if okk {
 			ma[sum] = v + 1
 		} else {
 			ma[sum] = 1
 		}
-		value, ok := ma[sum-k]
-		if ok {
-			res += value
-		}
+
 		fmt.Println("ma:", ma)
 	}
 	return res
