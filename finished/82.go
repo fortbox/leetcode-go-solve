@@ -3,7 +3,7 @@
  * @Author: xiaoweixiang
  */
 
-package main
+package finished
 
 //Definition for singly-linked list.
 type ListNode struct {

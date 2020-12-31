@@ -3,7 +3,7 @@
  * @Author: xiaoweixiang
  */
 
-package main
+package finished
 
 import "math"
 
