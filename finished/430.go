@@ -1,4 +1,4 @@
-package finished
+package main
 
 // Definition for a Node.
 type Node struct {

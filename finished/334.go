@@ -1,4 +1,4 @@
-package finished
+package main
 
 func increasingTriplet(nums []int) bool {
 	for i := 1; i < len(nums)-1; i++ {

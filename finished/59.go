@@ -1,4 +1,4 @@
-package finished
+package main
 
 func generateMatrix(n int) [][]int {
 	// 定义上、下、左、右，四个变量，分别记录当前到哪里转方向。然后就是写代码了

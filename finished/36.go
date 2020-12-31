@@ -1,4 +1,4 @@
-package finished
+package main
 
 func isValidSudoku(board [][]byte) bool {
 	var row, col, sbox [9][9]bool

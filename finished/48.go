@@ -1,4 +1,4 @@
-package finished
+package main
 
 func rotate(matrix [][]int) {
 	var n = len(matrix)

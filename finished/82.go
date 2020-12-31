@@ -3,13 +3,7 @@
  * @Author: xiaoweixiang
  */
 
-package finished
-
-//Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+package main
 
 func deleteHead(head *ListNode) (bool, *ListNode) {
 	if head == nil {
