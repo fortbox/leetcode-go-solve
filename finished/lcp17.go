@@ -18,7 +18,7 @@ func calculate(s string) int {
 	return x + y
 }
 func main() {
-	var s string = "AB"
+	var s = "AB"
 	res := calculate(s)
 	fmt.Println(res)
 }
