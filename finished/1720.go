@@ -3,7 +3,7 @@
  * @Author: xiaoweixiang
  */
 
-package leetcode_go_solve
+package main
 
 func decode(encoded []int, first int) []int {
 	ans := make([]int, len(encoded)+1)
