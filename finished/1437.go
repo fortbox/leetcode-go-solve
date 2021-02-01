@@ -3,7 +3,7 @@
  * @Author: xiaoweixiang
  */
 
-package leetcode_go_solve
+package main
 
 func kLengthApart(nums []int, k int) bool {
 	s := -k - 1
