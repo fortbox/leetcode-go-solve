@@ -3,7 +3,7 @@
  * @Author: xiaoweixiang
  */
 
-package leetcode_go_solve
+package main
 
 import "math"
 
